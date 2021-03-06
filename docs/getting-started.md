@@ -95,7 +95,7 @@ mvn archetype:generate -Dfilter=org.alfresco:
 ```
 
 You'll be prompted to select the archetype you want. The previously available archetypes, alfresco-amp-archetype and share-amp-archetype will still show up 
-as an option, however these archetypes are not part of Alfresco SDK 4.2.
+as an option, however these archetypes are not part of Alfresco SDK 4.1.
 
 Attention: You'll need double quotes around the filter part if you are using Windows Powershell: mvn archetype:generate "-Dfilter=org.alfresco:".
 
@@ -118,7 +118,7 @@ Choose archetype:
 * `org.alfresco.maven.archetype:alfresco-platform-jar-archetype`
 * `org.alfresco.maven.archetype:alfresco-share-jar-archetype`
 
-3. Choose the latest version, such as 4.2.0.
+3. Choose the latest version, such as 4.1.0.
 
 ```
 Choose org.alfresco.maven.archetype:alfresco-allinone-archetype version:
@@ -136,7 +136,6 @@ Choose org.alfresco.maven.archetype:alfresco-allinone-archetype version:
 12: 4.0.0-beta-1
 13: 4.0.0
 14: 4.1.0
-15: 4.2.0
 ```
 
 4. Next you will be prompted for additional values, like groupId, artifactId, and package, as shown below:
