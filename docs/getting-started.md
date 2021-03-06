@@ -65,7 +65,7 @@ OS name: "mac os x", version: "10.13.4", arch: "x86_64", family: "mac"
 ### Docker
 
 Alfresco recommends that you keep up-to-date with all the Docker releases. If you're using an older version of Windows or Mac you'll have to use 
-[Docker Toolbox](https://docs.docker.com/toolbox/) which has some known issues.
+[Docker Toolbox](https://docs.docker.com/toolbox/) which has some known issues. Use Docker Desktop to avoid any issues in Mac or Windows
 
 1. Download and install [Docker](https://docs.docker.com/install/).
 
